@@ -18,4 +18,4 @@ jobs:
         pip install mypy
     - name: mypy
       run: |
-        mypy -p mayan
+        mypy --ignore-missing-imports -p mayan
